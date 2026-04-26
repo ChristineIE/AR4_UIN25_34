@@ -208,13 +208,13 @@
 .elstad-card {
   grid-column: 1/2;
   grid-row: 2/4;
-  padding: 25px;
+  padding: 25px 50px;
 }
 
 .km-info {
   grid-column: 2/3;
   grid-row: 2/4;
-  padding: 25px;
+  padding: 25px 50px;
 }
 
 img {
