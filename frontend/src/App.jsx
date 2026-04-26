@@ -11,7 +11,7 @@ function App() {
     <Elstad />
     <Moe />
     <AssignmentCard />
-  </section>;
+  </section>
 )}
 
 export default App;
