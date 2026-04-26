@@ -10,10 +10,15 @@ const assignments = {
         },
         {
             name: "content",
-            title: "innhold",
+            title: "Innhold",
             type: "text",
         },
     ],
-}
+    preview: {
+        select: {
+            title: "title",
+        },
+    }, 
+}  
 
 export default assignments
