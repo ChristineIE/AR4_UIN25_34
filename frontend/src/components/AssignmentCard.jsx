@@ -18,7 +18,7 @@ export default function AssignmentCard() {
 
   return (
     <section>
-      {assignments?.map((a) => (
+      {assignment?.map((a) => (
         <article key={a._id}>
           <h2>{a.title}</h2>
           <p>{a.content}</p>
