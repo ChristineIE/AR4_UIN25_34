@@ -6,12 +6,12 @@ import Moe from "./components/Moe";
 
 function App() {
   return (
-    <section>
+    <main className="main-area">
       <Header />
       <Elstad />
       <Moe />
       <AssignmentCard />
-    </section>
+    </main>
   );
 }
 

@@ -17,9 +17,9 @@ export default function AssignmentCard() {
   console.log(assignment)
 
   return (
-    <section>
+    <section className="asgn-section">
       {assignment?.map((a) => (
-        <article key={a._id}>
+        <article key={a._id} className="asgn-card">
           <h2>{a.title}</h2>
           <p>{a.content}</p>
         </article>
