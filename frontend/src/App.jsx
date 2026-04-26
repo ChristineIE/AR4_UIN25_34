@@ -8,8 +8,6 @@ function App() {
 
   <section>
     <Header />
-    <Elstad />
-    <Moe />
     <AssignmentCard />
   </section>
 )}
