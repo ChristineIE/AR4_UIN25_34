@@ -190,6 +190,7 @@
 .header {
   grid-column: 1/3;
   grid-row: 1/2;
+  padding: 25px;
 }
 
 .asgn-section {
@@ -199,21 +200,30 @@
 
 .asgn-card {
   padding: 25px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .elstad-card {
   grid-column: 1/2;
   grid-row: 2/4;
+  padding: 25px;
 }
 
 .km-info {
   grid-column: 2/3;
   grid-row: 2/4;
+  padding: 25px;
 }
 
 img {
   width: 100%;
   max-width: 300px;
-  border-radius: 100px;
+  border-radius: 50px;
   max-height: 300px;
+}
+
+h2 {
+  padding: 15px;
 }

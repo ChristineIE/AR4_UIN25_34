@@ -7,23 +7,23 @@ export default function AssignmentCard() {
 
   useEffect(() => {
     async function fetchAssignments() {
-      const query = await client.fetch("*[_type == 'assignments']{_id, title, content}")
+      const query = await client.fetch("*[_type == 'assignments']{_id, title, content}");
       setAssignment(query);
     }
 
-    fetchAssignments()
-  }, [])
+    fetchAssignments();
+  }, []);
 
-  console.log(assignment)
+  console.log(assignment);
 
   return (
     <section className="asgn-section">
       {assignment?.map((a) => (
         <article key={a._id} className="asgn-card">
           <h2>{a.title}</h2>
-          <p>{a.content}</p>
+          <p className="asgn-p">{a.content}</p>
         </article>
       ))}
     </section>
-  )
+  );
 }
